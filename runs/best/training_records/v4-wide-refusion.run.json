@@ -1,0 +1,19 @@
+{
+  "command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "-B",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\refuse_tree_mixture.py",
+    "--tree-checkpoint",
+    "runs\\model_bundle_v4",
+    "--neural-checkpoint",
+    "runs\\model_bundle_v3_wide",
+    "--output",
+    "runs\\model_bundle_v4_wide"
+  ],
+  "started_at_utc8": "2026-10-14T12:17:53.977250+08:00",
+  "wall_seconds": 10.40710290000061,
+  "return_code": 0,
+  "log": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\v4-wide-refusion.log",
+  "threads": 4,
+  "temporary_directory": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\tmp"
+}

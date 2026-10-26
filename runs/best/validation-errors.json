@@ -1,0 +1,650 @@
+{
+  "split": "validation",
+  "error_count": 46,
+  "errors": [
+    {
+      "id": "gsm8k:743f8c6ead126726bf3d1957c6a5c5f79d9b748847a04b3a7695dbe63c7f1007",
+      "question": "Grace baked 4 whole pumpkin pies. She sold 1 whole pumpkin pie and gave 1 whole pumpkin pie to her friend. The remaining whole pumpkin pies were each sliced into 6 pieces. Her family ate 2/3 pieces. How many pieces of pumpkin pie were left?",
+      "selected_index": 0,
+      "selected_answer": "6",
+      "gold_answer": "4",
+      "candidate_answers": [
+        "6",
+        "4",
+        "2",
+        "4"
+      ],
+      "selected_text": "Grace baked **4 whole pumpkin pies**.  \nShe sold **1 whole pumpkin pie** and gave **1 whole pumpkin pie** to her friend.  \nSo, she had **3 whole pumpkin pies** left.  \n\nEach of those pies was sliced into **6 pieces**.  \nHer family ate **$ \\frac{2}{3} $** of the total pieces.  \n\nSo, the total number of pieces is:  \n$$ 3 \\times 6 = 18 $$\n\nShe ate $ \\frac{2}{3} $ of 18:  \n$$ \\frac{2}{3} \\times 18 = 12 $$\n\nThe number of pieces left is:  \n$$ 18 - 12 = 6 $$\n\n#### <numeric answer> 6"
+    },
+    {
+      "id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+      "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+      "selected_index": 3,
+      "selected_answer": "17",
+      "gold_answer": "9",
+      "candidate_answers": [
+        "9",
+        "17",
+        "17",
+        "17"
+      ],
+      "selected_text": "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$"
+    },
+    {
+      "id": "gsm8k:02e6a3586d4118e71421fdc68390a128f9deffd2e36cf200f9d29105c4e0e3e0",
+      "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+      "selected_index": 0,
+      "selected_answer": "48",
+      "gold_answer": "2",
+      "candidate_answers": [
+        "48",
+        "48",
+        "45",
+        "2"
+      ],
+      "selected_text": "We are told that each male student must partner with a female student, and we need to find how many students **cannot** partner with a student of the opposite gender when all three classes are combined.\n\n### Step 1: Total number of students\n\n- **Class 1:** 17 males + 13 females = 30 students  \n- **Class 2:** 14 males + 18 females = 32 students  \n- **Class 3:** 15 males + 17 females = 32 students  \n\n**Total students = 30 + 32 + 32 = 94 students**\n\n---\n\n### Step 2: Total number of possible pairings\n\n- Each student must pair with exactly one student of the opposite gender.  \n- So, the total number of possible pairings is the **minimum** of the total number of males and females, since we can't pair more than one person with each gender.\n\n- **Males: 17 + 14 + 15 = 46**  \n- **Females: 13 + 18 + 17 = 48**\n\nSo, the **maximum number of possible pairings** is **46** (the number of males).\n\n---\n\n### Step 3: Find how many students are unable to partner\n\nWe subtract the number of students who can partner from the total number of students:\n\n$$\n94 - 46 = 48\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{48}\n$$"
+    },
+    {
+      "id": "gsm8k:d41771a33607bdaf7b3e00726d01e899fdd0d6e8b013369a93bcc90248c0c46b",
+      "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+      "selected_index": 3,
+      "selected_answer": "100",
+      "gold_answer": "40",
+      "candidate_answers": [
+        "100",
+        "80",
+        "40",
+        "100"
+      ],
+      "selected_text": "We are given:\n\n- Tom buys **20 shares** at **$3 each**, for a total of **$60**.\n- He sells **10 shares** at **$4 each**, for a total of **$40**.\n- The **remaining 10 shares** double in value, so they now cost **$3 \u00d7 2 = $6 each**.\n\nNow calculate the total profit:\n\n- Total profit = (Selling price - Cost price) \u00d7 number of shares sold  \n  = ($40 - $30) \u00d7 10  \n  = $10 \u00d7 10  \n  = **$100**\n\n### Final Answer:\n#### $100."
+    },
+    {
+      "id": "gsm8k:9bb5fbe86fef3370a75fd8d35c55e52bb22a8726cfeacedb042e6f1ae65222d8",
+      "question": "Erik's dog can run 24 miles per hour. It is chasing a rabbit that can run 15 miles per hour. The rabbit has a head start of .6 miles. How many minutes does it take for the dog to catch up to the rabbit?",
+      "selected_index": 2,
+      "selected_answer": "8",
+      "gold_answer": "4",
+      "candidate_answers": [
+        "8",
+        "4",
+        "8",
+        "8"
+      ],
+      "selected_text": "We are given:\n\n- Dog's speed = 24 mph  \n- Rabbit's speed = 15 mph  \n- Head start = 0.6 miles  \n\nWe need to find the time it takes for the dog to **catch up** the rabbit.\n\n### Step 1: Find the relative speed\nSince the dog is faster than the rabbit, the time it takes for the dog to catch up is the time it takes for the **dog to cover the head start**.\n\nThe distance the dog needs to cover is the head start:\n\n$$\n\\text{Distance} = 0.6 \\text{ miles}\n$$\n\nThe relative speed of the dog compared to the rabbit is:\n\n$$\n24 - 15 = 9 \\text{ mph}\n$$\n\n### Step 2: Time to catch up\n\n$$\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Relative speed}} = \\frac{0.6}{9} = \\frac{2}{15} \\text{ hours}\n$$\n\n### Step 3: Convert to minutes\n\n$$\n\\frac{2}{15} \\text{ hours} \\times 60 \\text{ minutes/hour} = \\frac{120}{15} = 8 \\text{ minutes}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{8} \\text{ minutes}\n$$"
+    },
+    {
+      "id": "gsm8k:d6a8fbf8728cec1b7e77b51e1121a769e7d91903bd79516ba5c0483dac297fa3",
+      "question": "A football club has a balance of $100 million. The club then sells 2 of its players at $10 million each, and buys 4 more at $15 million each. How much money is left in the club register in millions of dollars?",
+      "selected_index": 3,
+      "selected_answer": "20",
+      "gold_answer": "60",
+      "candidate_answers": [
+        "20",
+        "60",
+        "20",
+        "20"
+      ],
+      "selected_text": "We start with the initial balance of **$100 million**.\n\n1. The club sells **2 players** at **$10 million each**:  \n   $$\n   2 \\times 10 = 20 \\text{ million dollars}\n   $$\n\n2. The club buys **4 players** at **$15 million each**:  \n   $$\n   4 \\times 15 = 60 \\text{ million dollars}\n   $$\n\n3. Total change in the club register:  \n   $$\n   20 + 60 = 80 \\text{ million dollars}\n   $$\n\n4. Final balance:  \n   $$\n   100 - 80 = 20 \\text{ million dollars}\n   $$\n\n#### <numeric answer> = 20"
+    },
+    {
+      "id": "gsm8k:53720078a6bffa4e141a7bf22a1e6a86239cb349bca7fe908c4fbccd6c1bc290",
+      "question": "Jason and Jeremy want to paint their wall white and agreed to split the cost of the paint. A gallon of paint costs $45 and can cover up to 400 square feet. How much will each of them contribute to the cost of the paint if their walls have a total area of 1600 square feet and will need a second coat?",
+      "selected_index": 2,
+      "selected_answer": "90",
+      "gold_answer": "180",
+      "candidate_answers": [
+        null,
+        "180",
+        "90",
+        "45"
+      ],
+      "selected_text": "We are given:\n\n- A gallon of paint costs **$45**.\n- A gallon covers **400 square feet**.\n- Jason and Jeremy want to paint a **total wall area of 1600 square feet**.\n- They will need a **second coat**.\n\n---\n\n### Step 1: Find how many gallons are needed\n\nWe need to calculate how many gallons of paint are required to cover the wall.\n\n$$\n\\text{Gallons} = \\frac{\\text{Total area}}{\\text{Coverage per gallon}} = \\frac{1600}{400} = 4 \\text{ gallons}\n$$\n\n---\n\n### Step 2: Find the cost of 4 gallons\n\n$$\n\\text{Cost} = 4 \\times 45 = 180 \\text{ dollars}\n$$\n\n---\n\n### Step 3: Determine how much each person contributes\n\nSince the total cost is **$180**, and there are 2 people:\n\n$$\n\\text{Each person's contribution} = \\frac{180}{2} = 90 \\text{ dollars}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{90}\n$$"
+    },
+    {
+      "id": "gsm8k:cb3a33439e77f859fe1f233fec6ba9226eb8cbcabff37407bb7e0365affe0084",
+      "question": "Patricia is growing her long very long to donate it to a charity that makes wigs for cancer survivors. Her hair is 14 inches long. She needs to donate 23 inches to make a wig. She wants her hair to be 12 inches long after the donation. How much longer does she have to grow her hair?",
+      "selected_index": 3,
+      "selected_answer": "3",
+      "gold_answer": "21",
+      "candidate_answers": [
+        "21",
+        "2",
+        "2",
+        "3"
+      ],
+      "selected_text": "We are given:\n\n- Original hair length: 14 inches  \n- Donation needed: 23 inches  \n- Desired final length after donation: 12 inches  \n\nWe need to find how much longer Patricia has to grow her hair.\n\n### Step 1: Find how much hair is needed for the donation\n$$\n23 - 14 = 9 \\text{ inches}\n$$\n\n### Step 2: Find how much hair is left after donation\n$$\n12 - 9 = 3 \\text{ inches}\n$$\n\n### Final Answer:\n$$\n\\boxed{3}\n$$"
+    },
+    {
+      "id": "gsm8k:259982b93458414b42b8fc9c5b109b9788076e7cc0bc1fcb972f2e4ace85f99c",
+      "question": "A frog pond has five frogs living in it. Some frogs laid eggs, and now there are three times as many tadpoles growing into more frogs as there are frogs. Two-thirds of the tadpoles will survive to maturity as frogs. The pond can only sustain eight frogs. How many frogs will have to find a new pond when the tadpoles grow up?",
+      "selected_index": 2,
+      "selected_answer": "3",
+      "gold_answer": "7",
+      "candidate_answers": [
+        "5",
+        "1",
+        "3",
+        "7"
+      ],
+      "selected_text": "We are given the following information:\n\n- There are **5 frogs** initially.\n- **Three times as many tadpoles** as frogs are now:  \n  $ 3 \\times 5 = 15 $ tadpoles.\n- **Two-thirds of the tadpoles** will survive to maturity as frogs.\n- The **pond can only sustain 8 frogs**.\n\n---\n\n### Step 1: Calculate the number of tadpoles that will survive to maturity\n\n$$\n\\frac{2}{3} \\times 15 = 10\n$$\n\nSo, **10 tadpoles** will mature and become frogs.\n\n---\n\n### Step 2: Subtract the number of frogs that will become tadpoles from the total number of tadpoles\n\n$$\n15 - 10 = 5\n$$\n\nSo, **5 frogs** will become tadpoles.\n\n---\n\n### Step 3: Subtract the number of frogs that will become tadpoles from the total number of frogs that can stay\n\n$$\n8 - 5 = 3\n$$\n\nSo, **3 frogs** will have to find a new pond.\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{3}\n$$"
+    },
+    {
+      "id": "gsm8k:340f1d4d09ae053baf7d49d75fd67feec2908fe38ef84d24966817c555c08fdf",
+      "question": "Lexie is 6 years older than her brother and her sister is twice her age. If Lexie is 8, what is the age difference between her brother and her sister?",
+      "selected_index": 0,
+      "selected_answer": "2",
+      "gold_answer": "14",
+      "candidate_answers": [
+        "2",
+        "2",
+        "2",
+        "14"
+      ],
+      "selected_text": "We are given:\n\n- Lexie is 8 years old.\n- Lexie is 6 years older than her brother.\n- Lexie is twice the age of her sister.\n\nLet's solve step by step:\n\n1. Lexie's age = 8  \n2. Lexie is 6 years older than her brother \u2192 Brother's age = Lexie's age - 6 = $ 8 - 6 = 2 $  \n3. Lexie is twice her sister's age \u2192 Sister's age = Lexie's age / 2 = $ 8 / 2 = 4 $\n\nNow, the **age difference between her brother and her sister** is:  \n$$ 2 - 4 = -2 $$\n\nSince age differences are typically expressed as absolute values, the final answer is:\n\n$$ \\boxed{2} $$"
+    },
+    {
+      "id": "gsm8k:9996ba1830f138f22df6fe986c5ab8db8b53a629cabc554c13430471b287de07",
+      "question": "When Mark bought his first tv it was was 24 inches wide and 16 inches tall. It cost $672. His new tv is 48 inches wide and 32 inches tall and costs $1152. How much more expensive as measure by cost per square inch, was his first TV compared to his newest TV?",
+      "selected_index": 3,
+      "selected_answer": "1152",
+      "gold_answer": "1",
+      "candidate_answers": [
+        "1",
+        "1152",
+        "1",
+        "1152"
+      ],
+      "selected_text": "We are given:\n\n- **First TV**: 24 inches wide, 16 inches tall, cost = $672  \n- **New TV**: 48 inches wide, 32 inches tall, cost = $1152\n\n### Step 1: Calculate cost per square inch for each TV\n\n#### First TV:\n$$\n\\text{Cost per square inch} = \\frac{672}{24 \\times 16} = \\frac{672}{384} = 1.75\n$$\n\n#### New TV:\n$$\n\\text{Cost per square inch} = \\frac{1152}{48 \\times 32} = \\frac{1152}{1536} = 0.75\n$$\n\n### Step 2: Find the difference in cost per square inch\n\n$$\n1.75 - 0.75 = 1\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$"
+    },
+    {
+      "id": "gsm8k:ae36664dc501756c5e434af983cced02f62a42c381f533b3f117c3d0ecfb13da",
+      "question": "CJ, KJ, and AJ collect stamps.  CJ has 5 more than twice the number of stamps that KJ has, and KJ has half as many as AJ.  If the three boys have 930 stamps all together, how many stamps does AJ have?",
+      "selected_index": 0,
+      "selected_answer": "185",
+      "gold_answer": "370",
+      "candidate_answers": [
+        "185",
+        "370",
+        null,
+        null
+      ],
+      "selected_text": "We are given:\n\n- Let $ KJ = x $\n- Then $ CJ = 2x + 5 $\n- $ AJ = 2x $ (since KJ has half as many as AJ)\n\nTotal stamps:  \n$$\nKJ + CJ + AJ = 930\n$$\n\nSubstitute:\n$$\nx + (2x + 5) + 2x = 930\n$$\n\nSimplify:\n$$\n5x + 5 = 930\n$$\n\nSubtract 5:\n$$\n5x = 925\n$$\n\nDivide by 5:\n$$\nx = 185\n$$\n\nSo, AJ has **185 stamps**.\n\n**Answer:**  \n$$\n\\boxed{185}\n$$"
+    },
+    {
+      "id": "gsm8k:eabe5b996ff0e9bc0307387a6ed8eaeb03a85562b4c1768d14614c678c88dc0f",
+      "question": "A school library has 120 books.  Each student needs 5 books for their classes.  The library was able to help 4 students on the first day of school, 5 students on the second day and 6 students on the third day.  How many students can the library help out on the fourth day of school?",
+      "selected_index": 3,
+      "selected_answer": "45",
+      "gold_answer": "9",
+      "candidate_answers": [
+        "9",
+        "24",
+        "24",
+        "45"
+      ],
+      "selected_text": "We start with the total number of books: **120**.\n\nEach student needs **5 books**, so the **total number of students** that can be helped on the first three days is:\n\n$$\n4 + 5 + 6 = 15 \\text{ students}\n$$\n\nSince each student needs **5 books**, the total number of books used by these students is:\n\n$$\n15 \\times 5 = 75 \\text{ books}\n$$\n\nNow, the library has **120 books**, and **75 books have been used**, so the remaining books are:\n\n$$\n120 - 75 = 45 \\text{ books}\n$$\n\nThese remaining books will help the library with **the fourth day** of school.\n\n### Final Answer:\n$$\n\\boxed{45}\n$$"
+    },
+    {
+      "id": "gsm8k:773786fcabb05faa06c66d6d093435b308e51cf550c4871924f6fd53f91dd9b8",
+      "question": "Isabelle gets a job so she can save enough money to go to a concert with her two brothers. Her ticket costs $20. Her brothers both get the children\u2019s discount, and each of their tickets cost $10. Her brothers have saved $5 between the two of them and Isabelle has saved $5. If her job pays $3 per week, how many weeks must she work to afford the tickets?",
+      "selected_index": 2,
+      "selected_answer": "11",
+      "gold_answer": "10",
+      "candidate_answers": [
+        "10",
+        "20",
+        "11",
+        "6"
+      ],
+      "selected_text": "Isabelle's total savings needed is:\n\n- Her brothers: $5 (each of them) = $10  \n- Isabelle: $5  \n- Total needed = $10 + $5 + $20 = **$35**\n\nHer job pays $3 per week. So:\n\n$$\n\\text{Number of weeks} = \\frac{35}{3} \\approx \\boxed{11}\n$$\n\n#### <numeric answer> = **11**."
+    },
+    {
+      "id": "gsm8k:8446f360c0f9e7e8050ffe55615c9b6f8544bfdc3522e9d7afbf6d115bff5455",
+      "question": "Billy and Margaret are competing with each other to see who can swim 10 laps the fastest. Billy swims his first 5 laps in 2 minutes, swims the next 3 laps in 4 minutes, swims the next lap in 1 minute, then swims his final lap. Margaret finishes swimming all of her laps in 10 minutes. Billy wins the competition by finishing his laps 30 seconds before Margaret does. In seconds, how long did it take Billy to swim his final lap?",
+      "selected_index": 3,
+      "selected_answer": "180",
+      "gold_answer": "150",
+      "candidate_answers": [
+        "420",
+        "150",
+        "540",
+        "180"
+      ],
+      "selected_text": "We are given the following:\n\n- Billy swims **10 laps** in **2 minutes** for the first 5 laps, **4 minutes** for the next 3 laps, and **1 minute** for the final lap.\n- Margaret swims all 10 laps in **10 minutes**.\n- Billy finishes his laps **30 seconds before** Margaret does.\n\nLet\u2019s calculate the total time Billy takes to swim all 10 laps.\n\n### Step 1: Total time for Billy\n\n- First 5 laps: 2 minutes\n- Next 3 laps: 4 minutes\n- Final lap: 1 minute\n\nTotal time for Billy = $2 + 4 + 1 = 7$ minutes\n\nConvert to seconds: $7 \\times 60 = 420$ seconds\n\n### Step 2: Time for Margaret\n\nMargaret finishes all 10 laps in **10 minutes** = $10 \\times 60 = 600$ seconds\n\n### Step 3: Difference in time\n\nBilly finishes **30 seconds before** Margaret does.\n\nSo, the difference in time is:\n\n$$\n600 - 420 = 180 \\text{ seconds}\n$$\n\nThis means Billy's final lap took **180 seconds**.\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{180}\n$$"
+    },
+    {
+      "id": "gsm8k:47ea45d3b36e2f74437274f20e0cd0e9f8957a8ad167f258281c1d3eeb52945e",
+      "question": "Texas Integrated School has 15 classes and has 20 students per class.  They added five more classes, how many students will they have now?",
+      "selected_index": 1,
+      "selected_answer": "700",
+      "gold_answer": "400",
+      "candidate_answers": [
+        "400",
+        "700",
+        "700",
+        "400"
+      ],
+      "selected_text": "We start with 15 classes, each containing 20 students:\n\n$$\n15 \\times 20 = 300 \\text{ students}\n$$\n\nThey added 5 more classes, so now there are:\n\n$$\n15 + 5 = 20 \\text{ new classes}\n$$\n\nEach class still has 20 students:\n\n$$\n20 \\times 20 = 400 \\text{ students}\n$$\n\nNow, total students:\n\n$$\n300 + 400 = \\boxed{700}\n$$\n\n#### <numeric answer> 700."
+    },
+    {
+      "id": "gsm8k:54992394e93bfdf99ce0e7a30c673e97799aee7122d7c26330dea6b04218fa0b",
+      "question": "Lavinia\u2019s daughter is 10 years younger than Katie\u2019s daughter. Lavinia\u2019s son is 2 times the age of Katie\u2019s daughter. If Katie\u2019s daughter is 12 years old, how many years older is Lavinia\u2019s son than Lavinia\u2019s daughter?",
+      "selected_index": 3,
+      "selected_answer": "10",
+      "gold_answer": "22",
+      "candidate_answers": [
+        "22",
+        "22",
+        "22",
+        "10"
+      ],
+      "selected_text": "We are given:\n\n- Katie\u2019s daughter is **12 years old**.\n- Lavinia\u2019s son is **2 times** the age of Katie\u2019s daughter.\n- Lavinia\u2019s daughter is **10 years younger** than Lavinia\u2019s son.\n\n---\n\n### Step 1: Find Lavinia\u2019s son's age\n\nSince Lavinia\u2019s son is **2 times** the age of Katie\u2019s daughter:\n\n$$\n\\text{Lavinia\u2019s son} = 2 \\times 12 = 24 \\text{ years old}\n$$\n\n---\n\n### Step 2: Find Lavinia\u2019s daughter's age\n\nLavinia\u2019s daughter is **10 years younger** than Lavinia\u2019s son:\n\n$$\n\\text{Lavinia\u2019s daughter} = 24 - 10 = 14 \\text{ years old}\n$$\n\n---\n\n### Step 3: Find the difference in age between Lavinia\u2019s son and Lavinia\u2019s daughter\n\n$$\n\\text{Difference} = 24 - 14 = \\boxed{10}\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{10}\n$$"
+    },
+    {
+      "id": "gsm8k:47192afc2477bf7ec08339bf13f0701a9626610ffd87aa844cae46d663222a1c",
+      "question": "Javier is an Olympic javelin thrower.  In the last Olympics, he threw the javelin three times.  The first throw, he threw the javelin twice as far as he threw the javelin on his second throw, but only half as far as he threw it the third throw.  If the sum of all three throws was 1050 meters, then how far, in meters, did he throw the javelin on his first throw?",
+      "selected_index": 2,
+      "selected_answer": "420",
+      "gold_answer": "300",
+      "candidate_answers": [
+        "300",
+        "525/2",
+        "420",
+        "300"
+      ],
+      "selected_text": "We are told:\n\n- The **first throw** is **twice as far as the second**, but **half as far as the third**.\n\nLet\u2019s define the distances:\n\n- Let the distance of the **second throw** be $ x $.\n\nThen:\n\n- First throw = $ 2x $\n- Second throw = $ x $\n- Third throw = $ 2x $\n\nNow, the **sum of all three throws** is:\n\n$$\n2x + x + 2x = 5x\n$$\n\nWe are told the **sum is 1050 meters**:\n\n$$\n5x = 1050\n$$\n\nSolving for $ x $:\n\n$$\nx = \\frac{1050}{5} = 210\n$$\n\nSo, the **first throw** is:\n\n$$\n2x = 2 \\times 210 = 420 \\text{ meters}\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{420}\n$$"
+    },
+    {
+      "id": "gsm8k:e094d7ae890435f338ee4240f1ad08931e76d6fbfb3774cfd87e1c07cb2ab809",
+      "question": "John and Yasmin's dad is named Gabriel. If John has twice the number of children that her sister has and Gabriel has six grandkids, how many children does Yasmin have?",
+      "selected_index": 3,
+      "selected_answer": "1",
+      "gold_answer": "2",
+      "candidate_answers": [
+        "2",
+        "2",
+        "6",
+        "1"
+      ],
+      "selected_text": "We are given the following:\n\n- John and Yasmin's dad is **Gabriel**.\n- John has **twice the number of children** that her sister has.\n- Gabriel has **six grandkids**.\n\nLet\u2019s define variables:\n\n- Let $ x $ be the number of children **Yasmin has**.\n- Then, **John has twice as many children as Yasmin**, so John has $ 2x $ children.\n- Since Gabriel has **six grandkids**, and assuming each grandchild corresponds to one child, Gabriel has **6 children**.\n\nSo we are told:\n\n- Gabriel has **6 children**.\n- John has **2x children**.\n- Yasmin has **x children**.\n\nNow, we are told that **John has twice the number of children that her sister has**.\n\nLet\u2019s define:\n\n- Let $ y $ be the number of children **Yasmin's sister has**.\n\nThen:\n\n- John has $ 2y $ children.\n- Yasmin has $ y $ children.\n\nWe are told that **Gabriel has six grandkids**, and we are to find the number of children **Yasmin has**, which is $ y $.\n\nSo, the final answer is:\n\n$$\n\\boxed{1}\n$$"
+    },
+    {
+      "id": "gsm8k:b02adc28fe5406c552b6a60f26d642e48a606631cc98914a2867ee5640116640",
+      "question": "Manny had 3 birthday cookie pies to share with his 24 classmates and his teacher, Mr. Keith.   If each of the cookie pies were cut into 10 slices and Manny, his classmates, and Mr. Keith all had 1 piece, how many slices are left?",
+      "selected_index": 0,
+      "selected_answer": "5",
+      "gold_answer": "4",
+      "candidate_answers": [
+        "5",
+        "5",
+        "240",
+        "4"
+      ],
+      "selected_text": "We are told:\n\n- Manny had **3 birthday cookie pies**.\n- Each pie was cut into **10 slices**.\n- Manny, his **24 classmates**, and Mr. Keith **each had 1 piece**.\n\n### Step 1: Calculate total number of slices\n- 3 pies \u00d7 10 slices per pie = **30 slices**.\n\n### Step 2: Determine how many people had 1 slice each\n- Manny + 24 classmates + Mr. Keith = **25 people**.\n\n### Step 3: Calculate total number of slices eaten\n- 25 people \u00d7 1 slice = **25 slices**.\n\n### Step 4: Calculate how many slices are left\n- Total slices = 30  \n- Slices eaten = 25  \n- Slices left = 30 - 25 = **5**\n\n### Final Answer:\n#### <numeric answer> 5"
+    },
+    {
+      "id": "gsm8k:76b4d47478e7bb8d5ecd4fb38205c77f55b72528bb0902aecbb0a26c5abdf0e2",
+      "question": "The ages of three brothers are consecutive integers with the sum of 96.  How old is the youngest brother?",
+      "selected_index": 3,
+      "selected_answer": "32",
+      "gold_answer": "31",
+      "candidate_answers": [
+        "31",
+        "32",
+        null,
+        "32"
+      ],
+      "selected_text": "We are told:\n\n- The ages of three brothers are **consecutive integers**.\n- Their **sum is 96**.\n\nLet the ages of the three brothers be:\n\n- $ a $ (youngest)\n- $ a + d $ (middle)\n- $ a + 2d $ (oldest)\n\nSo the sum is:\n\n$$\na + (a + d) + (a + 2d) = 96\n$$\n\nSimplify:\n\n$$\n3a + 3d = 96\n$$\n\nDivide both sides by 3:\n\n$$\na + d = 32\n$$\n\nNow we know the **youngest brother's age** is $ a $, and the **middle brother's age** is $ a + d = 32 $.\n\nSo, the **youngest brother is 32 years old**.\n\n#### Final Answer: **32**"
+    },
+    {
+      "id": "gsm8k:ef61aa2d7b9e6bf5b7f6d6d1d0540679033733c7b170636e2fcc7f2445a29d61",
+      "question": "There is very little car traffic on Happy Street. During the week, most cars pass it on Tuesday - 25. On Monday, 20% less than on Tuesday, and on Wednesday, 2 more cars than on Monday. On Thursday and Friday, it is about 10 cars each day. On the weekend, traffic drops to 5 cars per day. How many cars travel down Happy Street from Monday through Sunday?",
+      "selected_index": 1,
+      "selected_answer": "92",
+      "gold_answer": "97",
+      "candidate_answers": [
+        "97",
+        "92",
+        "97",
+        "100"
+      ],
+      "selected_text": "We are given the following information:\n\n- **Tuesday**: 25 cars  \n- **Monday**: 20% less than Tuesday \u2192 $ 25 \\times (1 - 0.20) = 20 $ cars  \n- **Wednesday**: 2 more cars than Monday \u2192 $ 20 + 2 = 22 $ cars  \n- **Thursday and Friday**: 10 cars each \u2192 $ 10 + 10 = 20 $ cars  \n- **Saturday and Sunday**: 5 cars each \u2192 $ 5 + 5 = 10 $ cars  \n\nNow, add them all up:\n\n$$\n20 \\, (\\text{Monday}) + 22 \\, (\\text{Wednesday}) + 10 \\, (\\text{Thursday}) + 10 \\, (\\text{Friday}) + 10 \\, (\\text{Saturday}) + 10 \\, (\\text{Sunday}) = 92\n$$\n\n### Final Answer:\n$$\n\\boxed{92}\n$$"
+    },
+    {
+      "id": "gsm8k:bb50ba9fd65d676f24cf5ee829f655494408dc9072e5f3bcf400688a5a3ff9eb",
+      "question": "For his birthday, Geoffrey received clothes and money. His grandmother gave him \u20ac20, his aunt \u20ac25 and his uncle \u20ac30. With what he already had, he now has \u20ac125 in his wallet. He goes to a video game store and gets 3 games that cost 35 euros each. How much does he have left after this purchase?",
+      "selected_index": 2,
+      "selected_answer": "95",
+      "gold_answer": "20",
+      "candidate_answers": [
+        "20",
+        "20",
+        "95",
+        "95"
+      ],
+      "selected_text": "We are given the following:\n\n- Geoffrey's grandmother gave him \u20ac20  \n- His aunt gave him \u20ac25  \n- His uncle gave him \u20ac30  \n- He already had \u20ac125 in his wallet  \n- He bought 3 games, each costing 35 euros  \n\n### Step 1: Add the money he received from his grandmother, aunt, and uncle\n\n$$\n20 + 25 + 30 = 75\n$$\n\n### Step 2: Add the money he already had to the received money\n\n$$\n125 + 75 = 200\n$$\n\n### Step 3: Calculate the total cost of the games\n\n$$\n3 \\times 35 = 105\n$$\n\n### Step 4: Subtract the cost of the games from the total\n\n$$\n200 - 105 = 95\n$$\n\n### Final Answer:\n\n$$\n\\boxed{95}\n$$"
+    },
+    {
+      "id": "gsm8k:f04692e90d6c37db463ff6d3e2a5cadd2f7548577cb43d9b1111a8bbadf50434",
+      "question": "Gillian\u2019s phone bill is usually $50 a month. If the monthly bill increases by 10%, what will be her phone bill for the entire next year?",
+      "selected_index": 1,
+      "selected_answer": "110",
+      "gold_answer": "660",
+      "candidate_answers": [
+        "660",
+        "110",
+        null,
+        "14763/50"
+      ],
+      "selected_text": "We are given:\n\n- Original monthly phone bill: $50  \n- Monthly increase: 10%  \n- Time period: 12 months (a year)\n\n### Step 1: Calculate the monthly increase after 10%\n\n$$\n\\text{Monthly increase} = 50 \\times 0.10 = 5\n$$\n\n### Step 2: Calculate the total increase over 12 months\n\n$$\n\\text{Total increase} = 5 \\times 12 = 60\n$$\n\n### Step 3: Add the original amount to the total increase\n\n$$\n\\text{Total phone bill for the year} = 50 + 60 = 110\n$$\n\n### Final Answer:\n\n$$\n\\boxed{110}\n$$"
+    },
+    {
+      "id": "gsm8k:fd23d86676d457a5edd2ad70cc5accd6b3e3c36e975e3b85316a5e7990357a36",
+      "question": "Andy walks 50 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 140 meters in total, how many meters is the distance between the house and the market?",
+      "selected_index": 1,
+      "selected_answer": "45",
+      "gold_answer": "40",
+      "candidate_answers": [
+        null,
+        "45",
+        "40",
+        null
+      ],
+      "selected_text": "We are told:\n\n- Andy walks **50 meters** from his house to school.\n- Then he **returns** to the house and goes to the **market**.\n- The **total distance** he walks is **140 meters**.\n\nLet the distance between the house and the market be $ x $ meters.\n\n- Andy walks **50 meters** to school.\n- Then he walks **x meters** back home.\n- Then he walks **x meters** to the market.\n\nSo the total distance is:\n\n$$\n50 + x + x = 50 + 2x = 140\n$$\n\nSolving for $ x $:\n\n$$\n2x = 140 - 50 = 90\n$$\n$$\nx = \\frac{90}{2} = 45\n$$\n\n### Final Answer:\n\n$$\n\\boxed{45}\n$$"
+    },
+    {
+      "id": "gsm8k:6e34c1e8b48d6d60736618bb775253231c94a17141d535057f42481a24263caa",
+      "question": "Lara is baking cookies using four baking trays. She places five rows of cookies on a baking tray where there are six cookies in one row. How many cookies is she baking?",
+      "selected_index": 2,
+      "selected_answer": "30",
+      "gold_answer": "120",
+      "candidate_answers": [
+        "120",
+        "24",
+        "30",
+        "30"
+      ],
+      "selected_text": "We are told:\n\n- There are **four baking trays**.\n- There are **five rows** of cookies.\n- Each row has **six cookies**.\n\nWe need to find the total number of cookies.\n\n### Step-by-step calculation:\n\n- Each row has 6 cookies.\n- There are 5 rows.\n- So, total cookies = $ 5 \\text{ rows} \\times 6 \\text{ cookies per row} = 30 $.\n\n### Final answer:\n\n$$\n\\boxed{30}\n$$"
+    },
+    {
+      "id": "gsm8k:98b36bef2589584f0c0506226a3c928dc446b150fc1d6d6b1386364f614731cf",
+      "question": "Jenna is making a costume for her role in Oliver Twist. She needs to make an overskirt and two petticoats. Each skirt uses a rectangle of material that measures 12 feet by 4 feet. She also needs to make a bodice that uses 2 square feet of material for the shirt and 5 square feet of fabric for each of the sleeves. If the material she uses costs $3 per square foot, how much does she spend on the material in total?",
+      "selected_index": 1,
+      "selected_answer": "432",
+      "gold_answer": "468",
+      "candidate_answers": [
+        "300",
+        "432",
+        null,
+        "468"
+      ],
+      "selected_text": "We need to calculate the total cost of the material Jenna uses for her costume.\n\n### Step 1: Cost of the bodice\n- **Shirt**: $2 \\, \\text{square feet}$\n- **Sleeves**: $5 \\, \\text{square feet} \\times 2 = 10 \\, \\text{square feet}$\n- **Total bodice cost**:  \n  $2 + 10 = 12 \\, \\text{square feet}$\n\n### Step 2: Cost of the overskirt and two petticoats\n- Each skirt uses **12 feet \u00d7 4 feet = 48 square feet**.\n- She is making **1 overskirt + 2 petticoats** = 3 skirts.\n- Total material for this part:  \n  $3 \\times 48 = 144 \\, \\text{square feet}$\n\n### Step 3: Cost of the material\n- Each square foot costs **$3**.\n- Total cost:  \n  $144 \\times 3 = 432$\n\n### Final Answer:\n$$\n\\boxed{432}\n$$"
+    },
+    {
+      "id": "gsm8k:1532b8a90524fd246aa0d0c3b2a4b35b617f24a4e0a9e4159733024c9e1b92e3",
+      "question": "Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?",
+      "selected_index": 1,
+      "selected_answer": "120",
+      "gold_answer": "144",
+      "candidate_answers": [
+        "144",
+        "120",
+        "96",
+        "120"
+      ],
+      "selected_text": "We are given:\n\n- Tom invites **5 people** (his parents and 3 siblings)  \n- Each person eats **3 meals per day**  \n- Each person uses **2 plates per meal**  \n- They stay for **4 days**\n\n### Step-by-step:\n\n1. **Total people**: 5  \n2. **Total meals per day**: 5 people \u00d7 3 meals/day = **15 meals/day**  \n3. **Total plates per meal**: 2 plates \u00d7 15 meals/day = **30 plates/day**  \n4. **Total plates for 4 days**: 30 plates/day \u00d7 4 days = **120 plates**\n\n### Final Answer:\n$$\n\\boxed{120}\n$$"
+    },
+    {
+      "id": "gsm8k:8ddc41679e6ceab9c4cd0b54dce16744eebef142a7a8797ae0a3717050e9c1fa",
+      "question": "Four days ago, Carlos bought a bag of gummy worms. Every day he ate half of the remaining gummy worms. After eating half of the remainder on the fourth day, he now has 4 gummy worms left. How many gummy worms were in the bag when Carlos bought it?",
+      "selected_index": 1,
+      "selected_answer": "4",
+      "gold_answer": "64",
+      "candidate_answers": [
+        "4",
+        "4",
+        null,
+        "64"
+      ],
+      "selected_text": "We are told that:\n\n- Carlos bought a bag of gummy worms.\n- Every day he eats half of the remaining gummy worms.\n- After eating half of the remainder on the **fourth day**, he has **4 gummy worms left**.\n\nWe need to find how many gummy worms were in the bag when Carlos bought it.\n\n---\n\n### Step-by-step process:\n\nLet\u2019s define the number of gummy worms in the bag as $ x $.\n\n#### Day 1:\n- Carlos eats half of the remaining gummy worms.\n- So, after eating, he has $ x - \\frac{x}{2} = \\frac{x}{2} $ gummy worms left.\n\n#### Day 2:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{2} - \\frac{x}{4} = \\frac{x}{4} $ gummy worms left.\n\n#### Day 3:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{4} - \\frac{x}{8} = \\frac{x}{8} $ gummy worms left.\n\n#### Day 4:\n- He eats half of the remaining gummy worms.\n- So, after eating, he has $ \\frac{x}{8} - \\frac{x}{16} = \\frac{3x}{16} $ gummy worms left.\n\nWe are told that after eating on the **fourth day**, he has **4 gummy worms** left.\n\nSo:\n\n$$\n\\frac{3x}{16} = 4\n$$\n\nSolve for $ x $:\n\n$$\nx = 4 \\times \\frac{16}{3} = \\frac{64}{3}\n$$\n\nBut this is not an integer. That suggests we made"
+    },
+    {
+      "id": "gsm8k:3034336136ee237cb096c3018367a2bee328ed40dddef9105f9f07440e8aac70",
+      "question": "After trick-or-treating, Brent dumped his candy on the table.  He had received 5 Kit-Kat bars, three times that amount in Hershey kisses, 8 boxes of Nerds,  and 11 lollipops.  He also had 10 Baby Ruths and half that amount in Reese Peanut butter cups.  After giving his little sister 5 lollipops, how many pieces of candy did Brent have left?",
+      "selected_index": 2,
+      "selected_answer": "58",
+      "gold_answer": "49",
+      "candidate_answers": [
+        "53",
+        "49",
+        "58",
+        "58"
+      ],
+      "selected_text": "Let's break down the candy Brent had and then subtract the 5 lollipops he gave to his sister.\n\n- **Kit-Kats**: 5  \n- **Hershey kisses**: 3 \u00d7 5 = 15  \n- **Nerds**: 8  \n- **Lollipops**: 11  \n- **Baby Ruths**: 10  \n- **Reese Peanut butter cups**: 10 \u00d7 0.5 = 5\n\nNow, add all the candies together:\n\n$$\n5 + 15 + 8 + 11 + 10 + 5 = 63\n$$\n\nAfter giving his sister 5 lollipops, the total candies left are:\n\n$$\n63 - 5 = \\boxed{58}\n$$\n\n#### <numeric answer> = 58"
+    },
+    {
+      "id": "gsm8k:00e31b0a611584b48fcc02112a30d33ddf10e1aeab28fe502fc3e6662cd80d82",
+      "question": "It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?",
+      "selected_index": 1,
+      "selected_answer": "90",
+      "gold_answer": "30",
+      "candidate_answers": [
+        "180",
+        "90",
+        null,
+        "30"
+      ],
+      "selected_text": "We are told:\n\n- A butterfly egg takes **120 days** to become a butterfly.\n- Each butterfly spends **3 times as much time** as a larva as in a cocoon.\n\nLet\u2019s define:\n\n- $ x $ = time spent in a **cocoon** (in days)\n- $ y $ = time spent in a **larva** (in days)\n\nWe are told:\n\n- $ x = 3y $\n\nWe also know that:\n\n- A butterfly egg takes **120 days** to become a butterfly.\n\nSo, the total time a butterfly spends is:\n\n$$\n120 = x + y\n$$\n\nSubstitute $ x = 3y $:\n\n$$\n120 = 3y + y = 4y\n$$\n\n$$\ny = \\frac{120}{4} = 30\n$$\n\n$$\nx = 3y = 3 \\times 30 = 90\n$$\n\n### \u2705 Final Answer:\n$$\n\\boxed{90}\n$$"
+    },
+    {
+      "id": "gsm8k:97d04496cbf6520758ea9e18e50038d6da463cd6cb4e153474462512c575d2df",
+      "question": "Hayes does 3 loads of laundry a week using a detergent pod for each load.  His detergent pods come 39 to a pack.  How many packs of detergent pods will he need to do a full year of laundry?",
+      "selected_index": 1,
+      "selected_answer": "12",
+      "gold_answer": "4",
+      "candidate_answers": [
+        "4",
+        "12",
+        "13",
+        "17"
+      ],
+      "selected_text": "Hayes uses 3 detergent pods per load of laundry and does 3 loads a week.  \nThere are 52 weeks in a year.\n\n- Number of loads per week: $ 3 \\times 52 = 156 $ loads  \n- Number of pods needed: $ 156 \\times 3 = 468 $ pods  \n\nSince each pack contains 39 pods, the number of packs needed is:  \n$$\n\\frac{468}{39} = 12\n$$\n\n### Final Answer:\n#### <numeric answer> 12 packs."
+    },
+    {
+      "id": "gsm8k:6b0b55e2322f10c7ec5072b7cbcf071988c436581eabd7a73b10e0aa3722164e",
+      "question": "Jane picked 64 apples at the orchard. She sorted them into 4 different baskets to send to her friends. When Jane wasn't looking her sister took 3 apples from each of the baskets. How many apples are in each basket now?",
+      "selected_index": 3,
+      "selected_answer": "52",
+      "gold_answer": "13",
+      "candidate_answers": [
+        "13",
+        "61",
+        "61",
+        "52"
+      ],
+      "selected_text": "We are told:\n\n- Jane picked **64 apples**.\n- She sorted them into **4 baskets**.\n- When her **sister took 3 apples from each basket**, each basket now has **$ 64 - 3 \\times 4 = 64 - 12 = 52 $** apples.\n\n### Final Answer:\n#### <numeric answer> 52"
+    },
+    {
+      "id": "gsm8k:130853dbe05e918b28a283d4766a8a5165070d46082b33202b9134d6838802b4",
+      "question": "On a particular day, Rose's teacher read the register and realized there were twice as many girls as boys present on that day. The class has 250 students, and all the 140 girls were present. If all the absent students were boys, how many boys were absent that day?",
+      "selected_index": 2,
+      "selected_answer": "180",
+      "gold_answer": "40",
+      "candidate_answers": [
+        "180",
+        "180",
+        "180",
+        "40"
+      ],
+      "selected_text": "We are given the following:\n\n- Total number of students = 250  \n- Number of girls present = 140  \n- Number of girls is **twice** as many as boys present.  \n- All the **absent students** are boys.  \n- We are to find how many **boys were absent**.\n\n---\n\n### Step 1: Let the number of boys present be $ x $.\n\nSince there are **twice as many girls as boys present**, we have:\n\n$$\n\\text{Number of girls present} = 2x\n$$\n\nBut we are told the number of girls present is **140**. So:\n\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, there are **70 boys present**.\n\n---\n\n### Step 2: Total number of students is 250.\n\n$$\n\\text{Total students} = \\text{Present students} + \\text{Absent students}\n$$\n\n$$\n250 = 70 + \\text{Absent students}\n$$\n\n$$\n\\text{Absent students} = 250 - 70 = 180\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{180}\n$$"
+    },
+    {
+      "id": "gsm8k:8d3fe5e63aad094e7ab6c20284db6982e5c97d665e50d32b7af477b05f06db16",
+      "question": "Issac has to buy pens and pencils for the upcoming school year. Issac buys 108 writing utensils total. He buys 12 more than 5 times the number of pencils than pens. How many pens did Issac buy?",
+      "selected_index": 2,
+      "selected_answer": "92",
+      "gold_answer": "16",
+      "candidate_answers": [
+        "16",
+        "92",
+        "92",
+        "16"
+      ],
+      "selected_text": "Let\u2019s define:\n\n- Let $ x $ be the number of pens.\n- Let $ y $ be the number of pencils.\n\nWe are told:\n\n1. Total writing utensils: $ x + y = 108 $\n2. He buys 12 more than 5 times the number of pencils than pens: $ 5y + 12 = x $\n\n---\n\nWe now solve the system of equations:\n\n1. $ x + y = 108 $\n2. $ x = 5y + 12 $\n\nSubstitute equation (2) into equation (1):\n\n$$\n(5y + 12) + y = 108\n$$\n\n$$\n6y + 12 = 108\n$$\n\n$$\n6y = 96\n$$\n\n$$\ny = 16\n$$\n\nNow substitute $ y = 16 $ back into equation (2):\n\n$$\nx = 5(16) + 12 = 80 + 12 = 92\n$$\n\n---\n\n### Final Answer:\n$$\n\\boxed{92}\n$$"
+    },
+    {
+      "id": "gsm8k:bb511c804a237d5943987dbb433f2bbdc567950080e2f1ad5be582f807be027a",
+      "question": "James burned his hand in a freak accident.  It takes him 4 weeks to heal enough to get a skin graft.  After that it takes him 50% longer than that to heal from the skin graft.  How long did he take to recover from everything?",
+      "selected_index": 0,
+      "selected_answer": "6",
+      "gold_answer": "10",
+      "candidate_answers": [
+        "6",
+        "6",
+        "6",
+        "10"
+      ],
+      "selected_text": "James took 4 weeks to heal enough to get a skin graft. After that, it takes him **50% longer** than 4 weeks to heal from the skin graft.\n\nSo, the time to heal from the skin graft is:\n\n$$ 4 \\, \\text{weeks} + 0.5 \\times 4 \\, \\text{weeks} = 4 + 2 = 6 \\, \\text{weeks} $$\n\nTherefore, the total time to recover from everything is:\n\n$$ \\boxed{6} \\, \\text{weeks} $$"
+    },
+    {
+      "id": "gsm8k:4b84b1899e2d283994fa018b602a8d65ed5ed6ab7f863d865b81fa8db4e101b0",
+      "question": "James goes out to eat.  He orders a steak and egg meal for $16.  He is with his friend, who orders chicken fried steak for $14.  His friend pays for half the bill and James pays the tip along with his half of the bill. They tip 20%.  How much did James pay?",
+      "selected_index": 0,
+      "selected_answer": "14",
+      "gold_answer": "21",
+      "candidate_answers": [
+        "14",
+        "40",
+        "21",
+        "27/2"
+      ],
+      "selected_text": "We are told:\n\n- James orders a steak and egg meal for **$16**.\n- His friend orders a chicken fried steak for **$14**.\n- His friend pays for half the bill.\n- James pays the **tip** (20% of the total bill) **and** his **half of the bill**.\n\n### Step 1: Total bill\n$$\n16 + 14 = 30 \\text{ dollars}\n$$\n\n### Step 2: Friend pays half the bill\n$$\n\\frac{30}{2} = 15 \\text{ dollars}\n$$\n\n### Step 3: James pays the tip and his half of the bill\n\n- The total tip is 20% of the **total bill**:\n  $$\n  0.20 \\times 30 = 6 \\text{ dollars}\n  $$\n\n- James pays his **half** of the bill:\n  $$\n  \\frac{16}{2} = 8 \\text{ dollars}\n  $$\n\n### Step 4: Total amount James pays\n$$\n6 + 8 = 14 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{14}\n$$"
+    },
+    {
+      "id": "gsm8k:ce96091db0ed35915679898989f2f6c58aeccb27527235003038ea36c0096a00",
+      "question": "John decides to start collecting art.  He pays the same price for his first 3 pieces of art and the total price came to $45,000.  The next piece of art was 50% more expensive than those.  How much did all the art cost?",
+      "selected_index": 2,
+      "selected_answer": "37500",
+      "gold_answer": "67500",
+      "candidate_answers": [
+        "67500",
+        "45000",
+        "37500",
+        "45000"
+      ],
+      "selected_text": "We are told:\n\n- John buys **3 pieces** of art, each costing the same price, for a total of **$45,000**.\n- The **next piece** is **50% more expensive** than the previous ones.\n\n### Step 1: Let the price of each of the first 3 pieces be $ x $.\n\nThen, the total price for the first 3 pieces is:\n\n$$\n3x = 45,000\n$$\n\nSolving for $ x $:\n\n$$\nx = \\frac{45,000}{3} = 15,000\n$$\n\nSo, each of the first 3 pieces costs **$15,000**.\n\n### Step 2: The next piece is 50% more expensive.\n\nThat means the next piece costs:\n\n$$\n15,000 \\times 1.5 = 22,500\n$$\n\n### Step 3: Total cost for all 4 pieces:\n\n$$\n15,000 + 22,500 = 37,500\n$$\n\n### Final Answer:\n\n$$\n\\boxed{37500}\n$$"
+    },
+    {
+      "id": "gsm8k:c4b2d05db43fd445c39d02bf0522dc37d2f38fa09caadd817c7179ce5591c236",
+      "question": "After negotiating for the price of a phone, Karsyn bought a phone at 20% of the initial price. If the phone's initial price was $600, calculate how much she paid after negotiating.",
+      "selected_index": 1,
+      "selected_answer": "720",
+      "gold_answer": "480",
+      "candidate_answers": [
+        "720",
+        "720",
+        "120",
+        "480"
+      ],
+      "selected_text": "We are told:\n\n- The phone's **initial price** is **$600**.\n- Karsyn bought it at **20% of the initial price**.\n\n### Step 1: Calculate 20% of $600  \n$$\n0.20 \\times 600 = 120\n$$\n\n### Step 2: Add the amount she paid  \n$$\n120 + 600 = 720\n$$\n\n### Final Answer:  \n$$\n\\boxed{720}\n$$"
+    },
+    {
+      "id": "gsm8k:2a6bc04e59bcb7b7a4265d5028c3ec2c2b21b79f0f63ab76ffbded2eb3f77b59",
+      "question": "Austin receives $5 for every hour he helps his father build a deck in their backyard. He works for 2 hours on Mondays, an hour on Wednesdays, and 3 hours on Fridays. If Austin wants to buy a bicycle that costs $180, how many weeks does he have to work?",
+      "selected_index": 3,
+      "selected_answer": "30",
+      "gold_answer": "6",
+      "candidate_answers": [
+        null,
+        null,
+        "6",
+        "30"
+      ],
+      "selected_text": "Austin works:\n\n- 2 hours on **Monday**\n- 1 hour on **Wednesday**\n- 3 hours on **Friday**\n\nSo, in total, he works:\n\n$$\n2 + 1 + 3 = 6 \\text{ hours}\n$$\n\nHe earns **$1 per hour** for helping his father build the deck.\n\nSo, his total earnings are:\n\n$$\n6 \\times 1 = 6 \\text{ dollars}\n$$\n\nHe wants to buy a bicycle that costs **$180**.\n\nTo find how many weeks he has to work, divide the cost by his hourly wage:\n\n$$\n\\frac{180}{6} = 30 \\text{ weeks}\n$$\n\n**Final answer:**\n\n$$\n\\boxed{30}\n$$"
+    },
+    {
+      "id": "gsm8k:73dd280f6ff8a61672aae35d622d0c12e2da767f0e5b5835688f994bb236acc5",
+      "question": "Billy and Tiffany are having a contest to see how can run the most miles in a week. On Sunday, Monday, and Tuesday, Billy runs 1 mile each day and Tiffany runs 2 miles each day. On Wednesday, Thursday, and Friday, Billy runs 1 mile each day and Tiffany runs a 1/3 of a mile each day. On Saturday Tiffany assumes she's going to win and takes the day off. How many miles does Billy have to run on Saturday to tie Tiffany?",
+      "selected_index": 3,
+      "selected_answer": "7",
+      "gold_answer": "1",
+      "candidate_answers": [
+        null,
+        "1",
+        null,
+        "7"
+      ],
+      "selected_text": "We are given the following information:\n\n- **Billy runs 1 mile per day on Sunday, Monday, and Tuesday.**\n- **Tiffany runs 2 miles per day on those three days.**\n- **Billy runs 1 mile per day on Wednesday, Thursday, and Friday.**\n- **Tiffany runs $ \\frac{1}{3} $ of a mile per day on those three days.**\n- **On Saturday, Tiffany takes the day off.**\n\nWe need to find how many miles Billy must run on Saturday to tie Tiffany.\n\n---\n\n### Step-by-step:\n\n- **Billy's total miles:**\n  - 3 days: 1 mile/day \u00d7 3 days = **3 miles**\n  - 3 days: 1 mile/day \u00d7 3 days = **3 miles**\n  - Total = 3 + 3 = **6 miles**\n\n- **Tiffany's total miles:**\n  - 3 days: 2 miles/day \u00d7 3 days = **6 miles**\n  - 3 days: $ \\frac{1}{3} $ mile/day \u00d7 3 days = **1 mile**\n  - Total = 6 + 1 = **7 miles**\n\nSo, **Billy needs to run 7 miles on Saturday to tie Tiffany**.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{7}\n$$"
+    },
+    {
+      "id": "gsm8k:66ac4ee41e0697997f322593efdaa8f1a3a4c54d6311b10af9ed6809a1431870",
+      "question": "Once a week, it takes Kitty 5 minutes to pick up toys and straighten the living room.  It takes another 20 minutes to vacuum the living room floor, seating and drapes.  She spends 15 minutes cleaning the windows and 10 minutes dusting the furniture.  After 4 weeks, how long has Kitty spent cleaning just the living room?",
+      "selected_index": 1,
+      "selected_answer": "160",
+      "gold_answer": "200",
+      "candidate_answers": [
+        "50",
+        "160",
+        "50",
+        "200"
+      ],
+      "selected_text": "We are told:\n\n- Kitty spends **5 minutes** to pick up toys and straighten the living room.\n- She spends **20 minutes** to vacuum the living room floor, seating, and drapes.\n- She spends **15 minutes** to clean the windows.\n- She spends **10 minutes** to dust the furniture.\n\nWe are asked to find how long **Kitty spent cleaning just the living room** after **4 weeks**.\n\n### Step-by-step:\n\n- In **1 week**, Kitty spends:\n  - 5 minutes (toys + living room) + 20 minutes (vacuuming) + 15 minutes (cleaning windows) + 10 minutes (dusting furniture) = **40 minutes**\n\n- After **4 weeks**, she spends:\n  - $40 \\, \\text{minutes/week} \\times 4 = 160 \\, \\text{minutes}$\n\n### Final answer:\n\n$$\n\\boxed{160}\n$$"
+    },
+    {
+      "id": "gsm8k:9b1b76a7e6f376d34000ecd72c533f44810f9f0116378ffeca9e13af53bda296",
+      "question": "The show Magic King was on the air for 10 seasons and 20 episodes per season for the first half of seasons and 25 for the second half of the show.  How many total episodes were there?",
+      "selected_index": 2,
+      "selected_answer": "450",
+      "gold_answer": "225",
+      "candidate_answers": [
+        "225",
+        "450",
+        "450",
+        "450"
+      ],
+      "selected_text": "We are given:\n\n- The show was on the air for **10 seasons**.\n- **20 episodes per season** for the **first half** of the seasons.\n- **25 episodes per season** for the **second half**.\n\n### Step 1: Calculate episodes in the first half\n- 10 seasons \u00d7 20 episodes/season = **200 episodes**\n\n### Step 2: Calculate episodes in the second half\n- 10 seasons \u00d7 25 episodes/season = **250 episodes**\n\n### Step 3: Add both halves\n- 200 + 250 = **450 episodes**\n\n### Final Answer:\n#### <numeric answer> 450"
+    },
+    {
+      "id": "gsm8k:d7261d3d3feec7b6f5adbb91ac09d278163b025fe77818d6b13b126c224af291",
+      "question": "Hansel makes $30,000 a year and just received a 10% raise.  Gretel makes the same amount as Hansel but received a 15% raise.  How much more money will Gretel make compared to Hansel?",
+      "selected_index": 1,
+      "selected_answer": "4500",
+      "gold_answer": "1500",
+      "candidate_answers": [
+        "4500",
+        "4500",
+        "1500",
+        "4500"
+      ],
+      "selected_text": "Hansel makes $30,000 and gets a 10% raise.  \nGretel makes the same amount as Hansel but gets a 15% raise.\n\n### Step 1: Calculate Gretel's raise\nGretel's raise = 15% of $30,000  \n= $0.15 \u00d7 30,000 = **$4,500**\n\n### Step 2: Calculate Gretel's total salary  \nGretel's total salary = $30,000 + $4,500 = **$34,500**\n\n### Step 3: Calculate how much more Gretel makes compared to Hansel  \nGretel's extra = $34,500 - $30,000 = **$4,500**\n\n### Final Answer:  \n$$\n\\boxed{4500}\n$$"
+    },
+    {
+      "id": "gsm8k:23362ebace3d656a190008ccbe883f572f150f9ba5f32f98336611e050abb075",
+      "question": "A plumber is trying to decide which of three different jobs he should take to make the most money.  The first job involves fixing three toilets and three sinks at an apartment complex.  The second involves two toilets and five sinks at a different apartment complex.  The third involves fixing one toilet, two showers and three sinks at a third apartment complex.  If the plumber charges $30 to fix a sink, $40 to fix a shower and $50 to fix a toilet, what is the most money the plumber can earn if he can only choose one of these three jobs?",
+      "selected_index": 1,
+      "selected_answer": "3",
+      "gold_answer": "250",
+      "candidate_answers": [
+        "250",
+        "3",
+        null,
+        "360"
+      ],
+      "selected_text": "We are given the following information:\n\n- **Job 1**: 3 toilets, 3 sinks  \n- **Job 2**: 2 toilets, 5 sinks  \n- **Job 3**: 1 toilet, 2 showers, 3 sinks  \n\nThe plumber charges:\n\n- $30 per sink  \n- $40 per shower  \n- $50 per toilet  \n\nWe are to find the **maximum** amount the plumber can earn by choosing **one** of the three jobs.\n\n### Step 1: Calculate the total earnings for each job\n\n#### **Job 1**:\n- 3 toilets \u00d7 $50 = $150  \n- 3 sinks \u00d7 $30 = $90  \n- **Total earnings**: $150 + $90 = **$240**\n\n#### **Job 2**:\n- 2 toilets \u00d7 $50 = $100  \n- 5 sinks \u00d7 $30 = $150  \n- **Total earnings**: $100 + $150 = **$250**\n\n#### **Job 3**:\n- 1 toilet \u00d7 $50 = $50  \n- 2 showers \u00d7 $40 = $80  \n- 3 sinks \u00d7 $30 = $90  \n- **Total earnings**: $50 + $80 + $90 = **$220**\n\n### Step 2: Compare the earnings\n\n- Job 1: $240  \n- Job 2: $250  \n- Job 3: $220\n\n### Step 3: Choose the job with the highest earnings\n\n**Job 2** gives the **most money**.\n\n### Final Answer:\n\n$$\n\\boxed{250}\n$$"
+    },
+    {
+      "id": "gsm8k:16eae5db0602ff257f136807f4821c4dec941be1d5e9c6ef9a572967830f8316",
+      "question": "A person puts $5600 in a bank for two years. Each year he earns interest of 7% of the original amount deposited. How much will this person have in the bank after two years?",
+      "selected_index": 3,
+      "selected_answer": "6420",
+      "gold_answer": "6384",
+      "candidate_answers": [
+        "160286/25",
+        "6384",
+        "160286/25",
+        "6420"
+      ],
+      "selected_text": "We are given:\n\n- Initial amount deposited: $5600  \n- Annual interest rate: 7%  \n- Time period: 2 years  \n\n### Step 1: First year  \nInterest earned = 7% of $5600 = $0.07 \u00d7 5600 = **$392**\n\nAfter one year, total amount = $5600 + $392 = **$6,000**\n\n### Step 2: Second year  \nInterest earned = 7% of $6000 = $0.07 \u00d7 6000 = **$420**\n\nAfter two years, total amount = $6000 + $420 = **$6,420**\n\n### Final Answer:  \n$$\n\\boxed{6420}\n$$"
+    }
+  ]
+}

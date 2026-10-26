@@ -1,0 +1,11 @@
+{
+  "from_scratch_reproduction": "passed",
+  "all_array_values_identical": true,
+  "array_count": 45,
+  "all_validation_choices_identical": true,
+  "validation_questions": 798,
+  "test_evaluated_again": false,
+  "frozen_sha256": "508b155570e105f005ecc1dc7f52c024bbb93b69daa45bcf1259fb04d8b17d41",
+  "reproduced_sha256": "508b155570e105f005ecc1dc7f52c024bbb93b69daa45bcf1259fb04d8b17d41",
+  "command": "python train_best.py --output runs\\best_reproduction_check"
+}

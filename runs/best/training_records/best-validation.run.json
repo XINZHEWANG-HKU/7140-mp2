@@ -1,0 +1,21 @@
+{
+  "command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "-B",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\measure_evaluation.py",
+    "--method",
+    "runs\\best\\source\\submission_v4.py",
+    "--checkpoint",
+    "runs\\best",
+    "--split",
+    "validation",
+    "--output-dir",
+    "runs\\best"
+  ],
+  "started_at_utc8": "2026-10-14T12:22:27.042099+08:00",
+  "wall_seconds": 5.719285899999704,
+  "return_code": 0,
+  "log": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\best-validation.log",
+  "threads": 4,
+  "temporary_directory": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\tmp"
+}

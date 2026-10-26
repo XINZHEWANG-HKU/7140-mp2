@@ -1,0 +1,21 @@
+{
+  "command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "-B",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\measure_evaluation.py",
+    "--method",
+    "submission_v2.py",
+    "--checkpoint",
+    "runs\\model_bundle_v2",
+    "--split",
+    "validation",
+    "--output-dir",
+    "runs\\v2"
+  ],
+  "started_at_utc8": "2026-10-14T12:06:22.138583+08:00",
+  "wall_seconds": 5.2153495000002295,
+  "return_code": 0,
+  "log": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\v2-validation.log",
+  "threads": 4,
+  "temporary_directory": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\tmp"
+}

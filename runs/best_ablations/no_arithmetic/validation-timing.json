@@ -1,0 +1,38 @@
+{
+  "split": "validation",
+  "prediction_wall_seconds": 3.77048190000005,
+  "scoring_wall_seconds": 0.47231680000004417,
+  "total_wall_seconds": 4.242803399999502,
+  "threads": 4,
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "D:\\anaconda\\envs\\mp1\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "processor": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+  "prediction_command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\predict.py",
+    "--method",
+    "runs\\best\\source\\submission_v4.py",
+    "--split",
+    "validation",
+    "--data-dir",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\data",
+    "--output",
+    "runs\\best_ablations\\no_arithmetic\\validation-predictions.json",
+    "--checkpoint",
+    "runs\\best_ablations\\no_arithmetic"
+  ],
+  "scoring_command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\score_predictions.py",
+    "--split",
+    "validation",
+    "--data-dir",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\data",
+    "--predictions",
+    "runs\\best_ablations\\no_arithmetic\\validation-predictions.json",
+    "--output",
+    "runs\\best_ablations\\no_arithmetic\\validation-score.json"
+  ],
+  "official_score_path": "runs\\best_ablations\\no_arithmetic\\validation-score.json"
+}

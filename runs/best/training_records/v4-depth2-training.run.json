@@ -1,0 +1,23 @@
+{
+  "command": [
+    "D:\\anaconda\\envs\\mp1\\python.exe",
+    "-B",
+    "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\train_v4.py",
+    "--neural-checkpoint",
+    "runs\\model_bundle_v3",
+    "--output",
+    "runs\\model_bundle_v4_depth2",
+    "--depth",
+    "2",
+    "--seed",
+    "7507",
+    "--rounds",
+    "800"
+  ],
+  "started_at_utc8": "2026-10-14T12:13:47.545999+08:00",
+  "wall_seconds": 51.25712300000032,
+  "return_code": 0,
+  "log": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\v4-depth2-training.log",
+  "threads": 4,
+  "temporary_directory": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\tmp"
+}

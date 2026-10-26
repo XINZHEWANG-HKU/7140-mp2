@@ -1,0 +1,8 @@
+{
+  "ablation": "no_arithmetic",
+  "full_method": "v4-wide",
+  "fusion_coefficients": "fixed to frozen winner; not retuned",
+  "training_protocol": "same architecture, seeds, budget, early-stop rule; arithmetic columns zeroed",
+  "checkpoint_sha256": "060ffa9ad698245facf4541b464d8eb029c206d65b86be4718fafb2ca5669caa",
+  "uncompressed_array_bytes": 2561312
+}

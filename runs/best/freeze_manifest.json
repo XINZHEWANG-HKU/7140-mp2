@@ -1,0 +1,123 @@
+{
+  "frozen_at_utc8": "2026-10-14T12:20:47.257903+08:00",
+  "selection_rule": "hard validation accuracy, overall validation accuracy, smaller asset size",
+  "winner": {
+    "name": "v4-wide",
+    "directory": "model_bundle_v4_wide",
+    "validation_accuracy": 94.23558897243107,
+    "validation_hard_accuracy": 87.04225352112675,
+    "checkpoint_bytes": 3112334
+  },
+  "candidates": [
+    {
+      "name": "v1",
+      "directory": "model_bundle",
+      "validation_accuracy": 92.98245614035088,
+      "validation_hard_accuracy": 84.22535211267605,
+      "checkpoint_bytes": 539596
+    },
+    {
+      "name": "v2",
+      "directory": "model_bundle_v2",
+      "validation_accuracy": 93.48370927318295,
+      "validation_hard_accuracy": 85.35211267605634,
+      "checkpoint_bytes": 3091886
+    },
+    {
+      "name": "v3",
+      "directory": "model_bundle_v3",
+      "validation_accuracy": 93.734335839599,
+      "validation_hard_accuracy": 85.91549295774648,
+      "checkpoint_bytes": 1401518
+    },
+    {
+      "name": "v4-tree-depth4",
+      "directory": "model_bundle_v4",
+      "validation_accuracy": 93.85964912280701,
+      "validation_hard_accuracy": 86.19718309859155,
+      "checkpoint_bytes": 1421966
+    },
+    {
+      "name": "v4-tree-depth2",
+      "directory": "model_bundle_v4_depth2",
+      "validation_accuracy": 93.85964912280701,
+      "validation_hard_accuracy": 86.19718309859155,
+      "checkpoint_bytes": 1438630
+    },
+    {
+      "name": "v3-wide",
+      "directory": "model_bundle_v3_wide",
+      "validation_accuracy": 94.11027568922306,
+      "validation_hard_accuracy": 86.76056338028168,
+      "checkpoint_bytes": 3091886
+    },
+    {
+      "name": "merged-regularized",
+      "directory": "model_bundle_merged_regularized",
+      "validation_accuracy": 94.11027568922306,
+      "validation_hard_accuracy": 86.76056338028168,
+      "checkpoint_bytes": 3942422
+    },
+    {
+      "name": "merged-diverse",
+      "directory": "model_bundle_merged_diverse",
+      "validation_accuracy": 93.98496240601504,
+      "validation_hard_accuracy": 86.47887323943661,
+      "checkpoint_bytes": 6483326
+    },
+    {
+      "name": "v4-wide",
+      "directory": "model_bundle_v4_wide",
+      "validation_accuracy": 94.23558897243107,
+      "validation_hard_accuracy": 87.04225352112675,
+      "checkpoint_bytes": 3112334
+    },
+    {
+      "name": "v4-merged",
+      "directory": "model_bundle_v4_merged",
+      "validation_accuracy": 94.23558897243107,
+      "validation_hard_accuracy": 87.04225352112675,
+      "checkpoint_bytes": 3963122
+    }
+  ],
+  "asset": {
+    "checkpoint": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\best\\model.npz",
+    "sha256": "508b155570e105f005ecc1dc7f52c024bbb93b69daa45bcf1259fb04d8b17d41",
+    "uncompressed_array_bytes": 2560608,
+    "file_bytes": 2572508
+  },
+  "source_sha256": {
+    "submission_v4.py": "2e6653ab4fe275605a201e146385e47f492c80d44ff352ac96662d6cdd026c7f",
+    "submission_v2.py": "98729838f17d91275710decc318200258714336cb353eb10e1cd4cdbbaac260d",
+    "features_v2.py": "65c6c9dcc2980d897fa5f90d441a049a49f9a75a7f6732aa7723c738d3d9cae0",
+    "model_utils.py": "1d4aa0c84e9087959a506fd4ea522ba9b2daeb740c4fda44d896efdca0cf0905",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "check_data.py": "32f203e156e3019f87bb038ade4f303da21ca2f1694bb678a3ddc44661f0b533",
+    "measure_evaluation.py": "3fa0ff5e265023bf70d76a9ff94bff0be812f5465b333a6c346c89e015f55c28",
+    "train_v2.py": "96f2eab4b9225a51183c6563b01a3c2d271962da47b55302fa277b8f97687a86",
+    "train_v3.py": "effa5ea60c76523a3ce2208f51e6faf49ac4a1c047b60a93bb5b04ca0dd1ab41",
+    "train_v4.py": "c7652254281466ca8d0d074ac7cd7b0a5eceaee947319c576fa3120988686716",
+    "refuse_tree_mixture.py": "fc535ebe59ab1909a1b68840479e51bb6b611a73818f1e80bbe03ff6facfe62d",
+    "requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "run_logged.py": "5cc6b9fc67c96abd6338d1066f1d1b48b10965c79ea11c16c2e3767e75ec2731",
+    "train_best.py": "a189bfcc71392e5c14d119830bcc3390f8d30c8798707108f4810f2c6908ae47"
+  },
+  "component_ablations": {
+    "no_tree": {
+      "checkpoint": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\best_ablations\\no_tree\\model.npz",
+      "sha256": "e864031b3c59afc982c03bb406779cef2207557602325b5bead73b57cb503a16",
+      "uncompressed_array_bytes": 2560608,
+      "file_bytes": 2572508
+    },
+    "no_neural": {
+      "checkpoint": "D:\\HKU\\7506\\DASE7506-MP2-main\\code\\runs\\best_ablations\\no_neural\\model.npz",
+      "sha256": "e7fab43c6fedf75878a67e0ea41fc7a67330668baccab980bc76e6afca9876fd",
+      "uncompressed_array_bytes": 2560608,
+      "file_bytes": 2572508
+    }
+  },
+  "test_used_for_selection": false,
+  "note": "Test evaluation must not trigger further tuning or checkpoint selection."
+}
